@@ -1,0 +1,67 @@
+:root { color-scheme: light dark; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  line-height: 1.4;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+main {
+  text-align: center;
+  padding: 24px;
+}
+
+.logo {
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.logo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 90vw;
+  max-height: 144px;
+  height: auto;
+  width: auto;
+  cursor: pointer;
+}
+
+#ip {
+  font-size: clamp(32px, 8vw, 64px);
+  font-weight: 800;
+  letter-spacing: .2px;
+  cursor: pointer;
+}
+
+.hint {
+  margin-top: 8px;
+  font-size: 14px;
+  opacity: .7;
+}
+
+button {
+  margin-top: 12px;
+  padding: 8px 14px;
+  font-weight: 600;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid currentColor;
+  border-radius: 999px;
+}
+
+button:disabled {
+  opacity: .6;
+  cursor: default;
+}
+
+button:focus-visible {
+  outline: 2px dashed currentColor;
+  outline-offset: 2px;
+}
+
