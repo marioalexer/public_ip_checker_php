@@ -1,4 +1,4 @@
-# public_ip_server_ip
+# public_ip_checker_php
 
 Herramienta mínima para mostrar y copiar la IP pública del visitante en tiempo real.
 
